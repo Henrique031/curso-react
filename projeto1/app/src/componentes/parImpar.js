@@ -5,7 +5,7 @@ import Estilos from './styles'
 export default ({ num = 1 }) => {
     
     return(
-        <View>
+        <View style={{flexDirection: 'row'}}>
             <Text style={Estilos.txtG}>O resultado é: </Text>
             {num % 2 === 0 
                 ?<Text style={Estilos.txtG}>Par</Text> 
