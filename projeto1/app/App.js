@@ -25,15 +25,17 @@ import ListaProdutosV2 from './src/componentes/produtos/listaProdutosV2';
 import DigiteSeuNome from './src/componentes/digiteSeuNome'
 import FlexBoxV1 from './src/componentes/layout/flexBoxV1'
 import FlexBoxV2 from './src/componentes/layout/flexBoxV2'
-*/
 import FlexBoxV3 from './src/componentes/layout/flexBoxV3'
+*/
+import FlexBoxV4 from './src/componentes/layout/flexBoxV4'
 
 export default function analisar(){
   return(
     <SafeAreaView style={styles.safe}>
-      <FlexBoxV3 />
+      <FlexBoxV4 />
      
      {/*
+      <FlexBoxV3 />
       <FlexBoxV2 />
       <FlexBoxV1 />
       <DigiteSeuNome />
