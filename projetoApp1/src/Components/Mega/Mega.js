@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { View, Text, TextInput, Button } from 'react-native'
 import Estilo from '../estilo'
 
-import MegaNumero from './MegaNumero.js'
+import MegaNumero from './MegaNumero'
 
 export default class Mega extends Component {
 

@@ -2,14 +2,11 @@ import React from 'react'
 import { Text, FlatList } from 'react-native'
 import Estilo from '../estilo'
 
-import produtos from './Produtos'
+import produtos from './produtos'
 
 export default props => {
- 
-    const ProdutoRender = ({ item: p}) => {
-        return(
-            <Text>{p.id}) {p.nome} R$ {p.preco} </Text>
-        )
+    const produtoRender = ({ item: p }) => {
+        return <Text>{p.id}) {p.nome} - R$ {p.preco}</Text>
     }
 
     return (
@@ -20,7 +17,7 @@ export default props => {
             <FlatList
                 data={produtos}
                 keyExtractor={i => `${i.id}`}
-                renderItem={ProdutoRender} 
+                renderItem={produtoRender}
             />
         </>
     )

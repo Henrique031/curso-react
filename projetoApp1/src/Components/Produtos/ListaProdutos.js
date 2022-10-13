@@ -2,7 +2,7 @@ import React from 'react'
 import { Text } from 'react-native'
 import Estilo from '../estilo'
 
-import produtos from './Produtos'
+import produtos from './produtos'
 
 export default props => {
     function obterLista() {
@@ -23,4 +23,4 @@ export default props => {
             {obterLista()}
         </>
     )
-};
+}
